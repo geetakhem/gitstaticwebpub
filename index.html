@@ -3,63 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Coming Soon</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #282c34;
-            color: white;
-            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .coming-soon-container {
             text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
-            font-size: 3em;
-            margin-bottom: 0.5em;
+            font-size: 2.5rem;
+            color: #333;
         }
+
         p {
-            font-size: 1.2em;
+            font-size: 1.2rem;
+            color: #555;
+            margin-top: 10px;
         }
-        .countdown {
-            font-size: 2em;
-            margin-top: 1em;
+
+        .subscribe {
+            margin-top: 30px;
+        }
+
+        input[type="email"] {
+            padding: 10px;
+            width: 250px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            input[type="email"] {
+                width: 200px;
+            }
         }
     </style>
 </head>
 <body>
-    <div>
-        <h1>Coming Soon!</h1>
-        <p>We're working hard to get our site up and running.</p>
-        <div class="countdown" id="countdown"></div>
+
+    <div class="coming-soon-container">
+        <h1>Coming Soon</h1>
+        <p>Our website is under construction, stay tuned for something amazing!</p>
+        
+        <div class="subscribe">
+            <input type="email" placeholder="Enter your email" />
+            <button>Notify Me</button>
+        </div>
     </div>
 
-    <script>
-        // Set the date we're counting down to
-        const countDownDate = new Date("October 31, 2024 00:00:00").getTime();
+    <footer>
+        © 2024 Your Company. All rights reserved.
+    </footer>
 
-        // Update the countdown every 1 second
-        const x = setInterval(function() {
-            const now = new Date().getTime();
-            const distance = countDownDate - now;
-
-            // Time calculations for days, hours, minutes, and seconds
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Display the result in the countdown element
-            document.getElementById("countdown").innerHTML = 
-                days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-            // If the countdown is over, write some text
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("countdown").innerHTML = "We're live!";
-            }
-        }, 1000);
-    </script>
 </body>
 </html>
