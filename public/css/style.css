@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'catull';
+    src: url('../fonts/catull.eot');
+    src: url('../fonts/catull.eot') format('embedded-opentype'),
+         url('../fonts/catull.woff2') format('woff2'),
+         url('../fonts/catull.woff') format('woff'),
+         url('../fonts/catull.ttf') format('truetype'),
+         url('../fonts/catull.svg#catull') format('svg');
+}
+@font-face {
+    font-family: 'CenturyGothicBold';
+    src: url('../fonts/CenturyGothicBold.eot');
+    src: url('../fonts/CenturyGothicBold.eot') format('embedded-opentype'),
+         url('../fonts/CenturyGothicBold.woff2') format('woff2'),
+         url('../fonts/CenturyGothicBold.woff') format('woff'),
+         url('../fonts/CenturyGothicBold.ttf') format('truetype'),
+         url('../fonts/CenturyGothicBold.svg#CenturyGothicBold') format('svg');
+}
+
+body {/*padding-top: 70px;*/
+/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */font-family:catull;}
+
+.slide-image {width: 100%;}
+.carousel-holder {/*margin-bottom: 30px;*/}
+.carousel-control, .item {border-radius: 4px;}
+.caption {height: 130px;overflow: hidden;}
+.caption h4 {white-space: nowrap;}
+.thumbnail img {width: 100%;}
+.ratings {padding-right: 10px;padding-left: 10px;color: #d17581;}
+.thumbnail {padding: 0;}
+.thumbnail .caption-full {padding: 9px;color: #333;}
+/*footer {margin: 50px 0;}*/
+.topbar {background-color: #000;}
+
+ul.social-network {list-style: none;display: inline;margin-left:0 !important;padding: 0;}
+ul.social-network li {display: inline;margin: 0 5px;}
+ul.social-network li a{background-color: #D3D3D3;margin-top:5px;}
+
+/* footer social icons */
+.social-network a.icoRss:hover {background-color: #F56505;}
+.social-network a.icoFacebook:hover {background-color:#3B5998;}
+.social-network a.icoTwitter:hover {background-color:#33ccff;}
+.social-network a.icoGoogle:hover {background-color:#BD3518;}
+.social-network a.icoVimeo:hover {background-color:#0590B8;}
+.social-network a.icoWhatsapp:hover {background-color:#009846;}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoWhatsapp:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {color:#44BCDD;}
+.top-header-widg { margin-top:5px; }
+.social-circle li a {display:inline-block;position:relative;margin:0 auto 0 auto;-moz-border-radius:50%;
+-webkit-border-radius:50%;border-radius:50%;text-align:center;width: 30px;height: 30px;font-size:15px;}
+.social-circle li i {margin:0;line-height:30px;text-align: center;}
+.social-circle li a:hover i, .triggeredHover {-moz-transform: rotate(360deg);-webkit-transform: rotate(360deg);
+-ms--transform: rotate(360deg);transform: rotate(360deg);-webkit-transition: all 0.2s;-moz-transition: all 0.2s;
+-o-transition: all 0.2s;-ms-transition: all 0.2s;transition: all 0.2s;}
+.social-circle i {color: #fff;-webkit-transition: all 0.8s;-moz-transition: all 0.8s;-o-transition: all 0.8s;
+-ms-transition: all 0.8s;transition: all 0.8s;}
+.no-css { margin-top:0px !important; }
+.contact-header p {color:#ccc;font-size:25px;margin-top:30px!important;font-weight:bold;font-family:CenturyGothicBold;}
+.contact-header p a {color:#ccc;}
+.padd-r {padding-right: 0px;}
+.padd-l {padding-left: 0px;}
+.btm_bg {background:#202224 url(../images/bottom_content_bg.png) repeat-x left top;}
+.btm_bg h2 {color:#917643; background: url(../images/hr-line.png) repeat-x left 25px; padding-bottom:10px;font-size:20px;}
+.btm_bg h3 {color:#917643; background: url(../images/hr-line.png) repeat-x left 25px; padding-bottom:10px;}
+footer { background:#232323 url(../images/footer_bg.png) repeat-x left top;/*height:132px;*/}
+ul.footer-nav li {display: inline-block;list-style-type:none;}
+ul.footer-nav li a {display:block;font-size:13px;color:#999999;border-right:1px solid #999999;padding:0 10px;}
+ul.footer-nav li a:hover {color:#8F3405;}
+ul.footer-nav li.last a {border-right:none;padding-right:0;}
+.height-50 {height: 60px;}
+.copyright {margin-top: 30px;}
+.copyright p {color:#ccc;font-size:13px;}
+.recipe img {margin-top:10px;margin-bottom:10px;}
+.side-bar-list-top {background:url(../images/sidebar_top.png) no-repeat center center; height:25px;background-size:100%;}
+.side-bar_bottom {background:url(../images/sidebar_bottom.png) no-repeat center center; height:15px;background-size:100%;}
+/*
+.side-bar-list {background:url(../images/sidebar_bg.png) repeat-x center center; height:392px;margin-right:12px;margin-left:12px;}
+*/
+.sub-head {color: #bdb35a; font-size:16px; margin-left:0;margin-top:20px;}
+.side-bar-list {background: #e2a31e;
+background: -moz-linear-gradient(top, #e2a31e 0%, #eab613 24%, #cf9124 48%, #9e6518 71%, #9e6518 86%, #1e1403 100%);
+background: -webkit-linear-gradient(top, #e2a31e 0%,#eab613 24%,#cf9124 48%,#9e6518 71%,#9e6518 86%,#1e1403 100%);
+background: linear-gradient(to bottom, #e2a31e 0%,#eab613 24%,#cf9124 48%,#9e6518 71%,#9e6518 86%,#1e1403 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2a31e', endColorstr='#1e1403',GradientType=0 );/*height:392px;*/margin-right:3px;margin-left:4px;}
+.sidebar_content_bg {background:url(../images/sidebar_content_bg.png) repeat-y center center;background-size:100%;}
+.banner_top {background:url(../images/banner_top_bg.png) no-repeat center top;height:25px;background-size:100%;}
+.banner_bottom {background:url(../images/banner_bottom_bg.png) no-repeat center top;height:15px;background-size:100%;}
+.banner_bg {background:url(../images/banner_bg.png) repeat-y center center;background-size:100%;}
+.banner_inner {margin-right:3px;margin-left:4px;}
+.sidebar_cat_list li {line-height:25px;color:#000;}
+.btm_bg ul {padding-left:15px;}
+.home_sale li {color:#ccc;line-height:24px;list-style-type:none;}
+p.announcement {color:#ccc;height:35px;line-height:35px;margin:0 auto;font-size:1.2em;color:#917643;}
+p.announcement span {display:block;float:left;margin-right:10px;}
+.readmore a{float:right;color:#fff;font-size:13px;}
+.viewmore a{float:right;color:#917643;font-size:13px;margin:10px 0px;}
+.sub_banner_bg {background:url(../images/subbanner-bg.png) no-repeat center top;background-size:100%;height:33px;}
+.sub_banner_bottom_bg {background:url(../images/subbanner_bottom_bg.png) no-repeat center top;background-size:100%;height:11px;}
+.sub_back_bg {background:url(../images/subbanner_bg.png) repeat-y center center;background-size:100%;}
+.sub-page-banner img {width: 100%;}
+.banner_inner1 {margin-right:9px;margin-left:6px;}
+.subpage_bg {background:#232323 url(../images/subpage_conte_bg.png) repeat-x left top; overflow:auto;/*display:inline-block;*/}
+.sub_gallery img {margin-top:10px;margin-bottom:10px;}
+.subhead { background: url(../images/hr-line.png) repeat-x left 25px; padding-bottom:1px; }
+h1 { color:#917643; font-size:20px;margin-left:0px;margin-right:10px;}
+h3 { color:#917643; font-size:20px;margin-left:0px;margin-right:10px;}
+.recipes h3 { background:url(../images/reciepies.png) right bottom no-repeat; height:30px; }
+.subapge_content p {color:#ccc;line-height:24px;font-size:14px;}
+.subapge_content h4 {color:#917643;line-height:24px;font-size:15px;margin-bottom:2px;  }
+
+.addr h4 {background: #36383a;color: #fff;font-size: 0.95em;line-height: 30px;padding-left: 20px; margin-top:0;}
+.addr {border: 1px solid #535353;width:100%; margin-bottom:20px;}
+.place-order { background: rgba(0, 0, 0, 0) none repeat scroll 0 0;color: #fff;font-size: 1.2em;}
+.addr img { width:100%; padding:5px; }
+.kadaknath-breed .addr_first {margin-left: 40px;}
+.kadaknath-breed .addr {margin: 20px 10px 20px 0;}
+.kadaknath_links { color:#fff; }
+.kadaknath_links:hover { color:#993300; }
+.footer-nav { margin: 0; padding: 0; }
+
+.recipes_list {color: #ccc;margin: 20px 0 0 10px; padding:0;}
+.recipes_list li {background: rgba(0, 0, 0, 0) url("../images/bullet.png") no-repeat scroll left 5px;padding-left: 15px; list-style:none;}
+.recipes_list li a {color: #ccc;}
+.recipes_list a:hover {color: #bdb35a;}
+.recipes_head  {color: #bdb35a;font-size: 1em;letter-spacing: 1.5px;margin: 10px 0 10px 0px; }
+.under-line {background: rgba(0, 0, 0, 0) url("../images/headingline.png") no-repeat scroll left top;height: 1px;
+margin: 0 0 10px 0px;}
+.recipes_img { width: 100%; }
+.addr_comming_soon p span {color: #b88f42;}
+#submit { background:#b88f42; border:none; margin-bottom:20px; }
+address {   color: #ccc;float: left;line-height: 1.5;margin: 20px 0 0 10px;}
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+@media only screen and (max-device-width: 321px) { /* smartphones, iPhone, portrait 480x320 phones */ 
+	.contact-header p { margin-top:0; }
+    .sub_banner_bg { height:9px; }
+    .no-css a img { margin-bottom:30px !important; }
+    .banner_top { height:13px !important; }
+}
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 480px) { 
+	/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+	.contact-header p { margin-top:0; }
+	.banner_top { height:15px !important;}
+	.sub_banner_bg { height:14px } 
+}
+@media only screen and (max-width: 640px)  {
+	.contact-header p { margin-top:0;  }
+	.sub_banner_bg { height:20px } 
+}
+@media only screen and (max-width: 360px) {
+	.contact-header p { margin-top:0; }
+    .sub_banner_bg { height:9px; }
+}
+@media only screen and (max-width: 1024px) {
+	.contact-header p { margin-top:0; }
+    .sub_banner_bg { height:25px; }
+}
+
+.success{color:green !important;font-weight:600;font-size:18px !important;}
+.fail{color:red !important;font-weight:600;font-size:18px !important;}
+.media-block a{color:#fff;}
+.media img {border: 1px solid #CCCCCC;margin-bottom: 10px;text-align:center;}
+.media a span{text-align:center !important;}
+.marg-10{margin-bottom:10px;}
+.copyright a{color:#CCCCCC;}
+.merit_head {margin-top:0px; color:#fff;padding:10px;text-align:center;font-size:20px;}
+marquee {color:#fff;}
+.joint_cont p {color:#fff; margin:0 10px 20px 10px;}
+.top_tag_line {color:#cccccc; font-size:16px; margin-top:20px;}
+.chick {margin-bottom:0;}
+.sidebar_cat_list {margin-bottom:0;}
